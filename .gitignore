@@ -1,0 +1,15 @@
+# Local only. Never commit.
+/private/
+/recordings/
+.env*
+*.log
+*.lock.json
+
+# Build output
+/build*/
+!/build-aux/
+/release/
+/.deps/
+/cmake/.CMakeBuildNumber
+__pycache__/
+.DS_Store
